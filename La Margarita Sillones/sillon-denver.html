@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Denver - La Margarita Confort</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+    <header class="navbar">
+        <button class="mobile-toggle" id="mobileToggle">☰</button>
+        <div class="desktop-menu nav-left">
+            <a href="index.html#hero" class="nav-link">INICIO</a>
+            <div class="nav-dropdown">
+                <a href="index.html#catalogo" class="nav-link">PRODUCTOS <span class="arrow">▾</span></a>
+                <div class="dropdown-menu">
+                    <a href="index.html#catalogo" class="dropdown-link">Sillones</a>
+                    <a href="index.html#catalogo" class="dropdown-link">Sillas</a>
+                    <a href="index.html#catalogo" class="dropdown-link">Mesas</a>
+                    <a href="index.html#catalogo" class="dropdown-link">Espaldares</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-center">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="La Margarita Confort" class="logo-img">
+                <span class="logo-text">La Margarita Confort</span>
+            </div>
+        </div>
+        <div class="desktop-menu nav-right">
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link">CUENTA <span class="arrow">▾</span></a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-link">Crear cuenta</a>
+                    <a href="#" class="dropdown-link">Iniciar sesión</a>
+                </div>
+            </div>
+            <a href="index.html#contacto" class="nav-link">CONTACTO</a>
+            <a href="#" class="icon-btn cart-icon" aria-label="Carrito">
+                <svg class="cart-svg" viewBox="0 0 24 24">
+                    <path d="M6 6h15l-1.5 9h-12z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <circle cx="9" cy="19" r="1.5" fill="currentColor"/>
+                    <circle cx="18" cy="19" r="1.5" fill="currentColor"/>
+                </svg>
+                <span class="cart-count"></span>
+            </a>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <section class="product-layout">
+            <div class="product-gallery">
+                <img src="img/sillon-denver/sillon-denver.jpg" alt="Modelo Denver" class="product-main-img">
+                <div class="product-thumbs">
+                    <img src="img/sillon-denver/sillon-denver.jpg" alt="Modelo Denver vista 1" class="product-thumb active">
+                    <img src="img/sillon-denver/sillon-denver2.jpg" alt="Modelo Denver vista 2" class="product-thumb">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <a href="index.html#catalogo" class="back-link">Volver a productos</a>
+
+                <h1 class="product-title">Modelo Denver</h1>
+                <p class="product-subtitle">150 x 80 · Fabricación a medida</p>
+
+                <p class="product-text">
+                    El <strong>Modelo Denver</strong> destaca por su diseño moderno, adaptable y cómodo. Fabricado en medidas estándar de <strong>150 x 80 cm</strong>, aunque también puede realizarse <strong>a medida</strong> según las necesidades del espacio. Disponible en <strong>pana</strong>, <strong>chenille</strong> o <strong>lino</strong>, ofrece una estética versátil que se adapta a distintos estilos.
+                </p>
+
+                <ul class="product-features">
+                    <li>Medida estándar: <strong>150 x 80 cm</strong> (fabricación a medida disponible).</li>
+                    <li>Tela a elección: <strong>pana</strong>, <strong>chenille</strong> o <strong>lino</strong>.</li>
+                    <li>Asientos con placas de alta densidad de <strong>28 kg</strong>.</li>
+                    <li>Patas <strong>taco de madera</strong> o <strong>bochas opcionales</strong>.</li>
+                </ul>
+
+                <p class="product-price-note">Consultá el precio, telas disponibles y opciones de medidas.</p>
+
+                <a href="https://wa.me/5491153371985?text=Hola%2C%20quiero%20hacer%20una%20consulta%20por%20el%20Modelo%20Denver%20150x80." target="_blank" class="btn-hero product-whatsapp">
+                    Consultar por WhatsApp
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 La Margarita Confort · Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

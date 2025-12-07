@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Nube - La Margarita Confort</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+    <header class="navbar">
+        <button class="mobile-toggle" id="mobileToggle">☰</button>
+        <div class="desktop-menu nav-left">
+            <a href="index.html#hero" class="nav-link">INICIO</a>
+            <div class="nav-dropdown">
+                <a href="index.html#catalogo" class="nav-link">PRODUCTOS <span class="arrow">▾</span></a>
+                <div class="dropdown-menu">
+                    <a href="index.html#catalogo" class="dropdown-link">Sillones</a>
+                    <a href="index.html#catalogo" class="dropdown-link">Sillas</a>
+                    <a href="index.html#catalogo" class="dropdown-link">Mesas</a>
+                    <a href="index.html#catalogo" class="dropdown-link">Espaldares</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-center">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="La Margarita Confort" class="logo-img">
+                <span class="logo-text">La Margarita Confort</span>
+            </div>
+        </div>
+        <div class="desktop-menu nav-right">
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link">CUENTA <span class="arrow">▾</span></a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-link">Crear cuenta</a>
+                    <a href="#" class="dropdown-link">Iniciar sesión</a>
+                </div>
+            </div>
+            <a href="index.html#contacto" class="nav-link">CONTACTO</a>
+            <a href="#" class="icon-btn cart-icon" aria-label="Carrito">
+                <svg class="cart-svg" viewBox="0 0 24 24">
+                    <path d="M6 6h15l-1.5 9h-12z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <circle cx="9" cy="19" r="1.5" fill="currentColor"/>
+                    <circle cx="18" cy="19" r="1.5" fill="currentColor"/>
+                </svg>
+                <span class="cart-count"></span>
+            </a>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <section class="product-layout">
+            <div class="product-gallery">
+                <img src="img/sillon-nube/sillon-nube.jpg" alt="Modelo Nube" class="product-main-img">
+                <div class="product-thumbs">
+                    <img src="img/sillon-nube/sillon-nube.jpg" alt="Modelo Nube vista 1" class="product-thumb active">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <a href="index.html#catalogo" class="back-link">Volver a productos</a>
+
+                <h1 class="product-title">Modelo Nube</h1>
+                <p class="product-subtitle">Sillón 240 x 120 · Confort premium</p>
+
+                <p class="product-text">
+                    El <strong>Modelo Nube</strong> se destaca por su diseño amplio y ultra confortable, ideal para relajarse en espacios sociales o de descanso. Su estructura utiliza <strong>placas de alta densidad</strong> que brindan soporte, mientras que su <strong>colchón de vellón siliconado</strong> genera una sensación suave y envolvente.
+                </p>
+
+                <ul class="product-features">
+                    <li>Medidas: <strong>240 x 120 cm</strong>.</li>
+                    <li>Asientos con <strong>placas de alta densidad</strong> para mayor confort y durabilidad.</li>
+                    <li>Colchón superior de <strong>vellón siliconado</strong>, suave y mullido.</li>
+                    <li>Diseño amplio y profundo para <strong>máxima comodidad</strong>.</li>
+                </ul>
+
+                <p class="product-price-note">Consultá el precio, telas disponibles y formas de pago.</p>
+
+                <a href="https://wa.me/5491153371985?text=Hola%2C%20quiero%20hacer%20una%20consulta%20por%20el%20Modelo%20Nube%20240x120." target="_blank" class="btn-hero product-whatsapp">
+                    Consultar por WhatsApp
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 La Margarita Confort · Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
