@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <!-- ============ NAVBAR ============ -->
+        <!-- ============ NAVBAR ============ -->
     <header class="navbar">
         <!-- Botón hamburguesa (solo mobile) -->
         <button class="mobile-toggle" id="mobileToggle">☰</button>
@@ -50,6 +50,48 @@
                     <a href="#" class="dropdown-link">Crear cuenta</a>
                     <a href="#" class="dropdown-link">Iniciar sesión</a>
                 </div>
+            </div>
+
+            <a href="index.html#contacto" class="nav-link">CONTACTO</a>
+
+             <!-- carrito desktop -->
+        <a href="#" class="icon-btn cart-icon" aria-label="Carrito">
+            <svg class="cart-svg" viewBox="0 0 24 24">
+                <path d="M6 6h15l-1.5 9h-12z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <circle cx="9" cy="19" r="1.5" fill="currentColor"/>
+                <circle cx="18" cy="19" r="1.5" fill="currentColor"/>
+            </svg>
+            <span class="cart-count"></span>
+        </a>
+    </div>
+
+        </div>
+
+        <!-- carrito mobile (icono a la derecha) -->
+    <a href="#" class="icon-btn cart-icon mobile-cart" aria-label="Carrito">
+    <svg class="cart-svg" viewBox="0 0 24 24">
+        <path d="M6 6h15l-1.5 9h-12z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="9" cy="19" r="1.5" fill="currentColor"/>
+        <circle cx="18" cy="19" r="1.5" fill="currentColor"/>
+    </svg>
+    <span class="cart-count"></span>
+</a>
+
+    </header>
+
+    <!-- ============ MENÚ LATERAL MOBILE ============ -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">✕</button>
+
+        <a href="index.html#hero">Inicio</a>
+        <a href="index.html#catalogo" class="mobile-link-arrow">Productos</a>
+        <a href="index.html#contacto">Contacto</a>
+
+        <hr>
+
+        <a href="#" class="mobile-secondary">Crear cuenta</a>
+        <a href="#" class="mobile-secondary">Iniciar sesión</a>
+    </nav>
             </div>
 
             <a href="index.html#contacto" class="nav-link">CONTACTO</a>
