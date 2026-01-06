@@ -38,3 +38,34 @@ if (mainImg && thumbs.length) {
         });
     });
 }
+
+// ===============================
+// FILTRO DE PRODUCTOS POR CATEGORÍA
+// ===============================
+document.querySelectorAll('.filter-link').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+
+    const filter = link.dataset.filter;
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+      if (filter === 'all') {
+        card.style.display = 'block';
+      } else {
+        card.style.display = card.classList.contains(filter)
+          ? 'block'
+          : 'none';
+      }
+    });
+
+    // Scroll suave al catálogo
+    const catalogo = document.querySelector('#catalogo');
+    if (catalogo) {
+      catalogo.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+
+
+
